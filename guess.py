@@ -19,7 +19,7 @@ def guess_number():
                 print("The number is bigger!")
             else:
                 print("The number is smaller!")
-            # 超过循环次数，选择是否结束循环
+            # 超过循环次数，选择是否结束循环  //如果要求在指定的循环次数内完成，可以在while条件中写入 count<=10，不需要单独判断
             if count == 10:
                 if input("您已输入十次，是否继续输入？（yes/no）：") == "no":
                     print(f"该整数是：{num}")
